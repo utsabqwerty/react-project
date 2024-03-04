@@ -1,0 +1,43 @@
+#Calculator{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: bisque;
+    width: 450px;
+    height: fit-content;
+    padding: 20px;
+}
+#Display{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 8PX;
+    align-items: center;
+}
+#Display div:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+}
+#Display #answer{
+    padding: 8px 20px;
+    border: 1px solid gray;
+    color: brown;
+    font-size: 16px;
+    font-weight: bolder;
+
+
+}
+.Keys{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Keys div{
+    background-color: aliceblue;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    margin: 10px 8px;
+
+}
